@@ -1,0 +1,124 @@
+.card{
+    
+   
+}
+.card1{
+    background-color:#134B70;
+    width: 205vh;
+    height:110vh;
+}
+
+body{
+    margin: 0;
+}
+
+.circle{
+    
+height:200px;
+width: 200px;
+background-image: linear-gradient(to bottom right, rgb(6, 148, 176),#96C9F4,#0F67B1);
+box-shadow: 2px 2px 2px 2px rgb(94, 72, 116);
+border-radius: 50%;
+position: absolute;
+left:400px;
+top:100px;
+}
+.front{
+ border: 1px solid;
+    position: absolute;
+    backdrop-filter: blur(5px);
+    background-color:#51aff6;
+    width:460px;
+    height: 250px;
+   left:500px;
+   top:200px;
+   border-radius: 1rem;
+   
+}
+
+.back{
+    position: relative;
+   top:460px; 
+   
+    
+
+}
+.back .black-strip{
+    position: relative;
+    background-color: black;
+    width: 460px;
+    height: 45px;
+    top: 15px;
+}
+.back .signature-block{
+    position: relative;
+    top: 20px;
+   
+    height: 40px;
+}
+.back .signature{
+    position: relative;
+    margin-left: 10px;
+   width: 62%;
+   height: 40px;
+   background-color: rgb(255, 255, 255);
+    z-index: 3;
+    border-radius: 0.3rem 0 0 0.3rem;
+}
+.back .code{
+    position: relative;
+    left:290px;
+    height: 30px;
+    background-color: rgb(197, 180, 180);
+    display: inline;
+    padding: 0 10px;
+    font-size: 23px;
+    bottom:31px;
+    z-index: 2;
+}
+.chip{
+    position: relative;
+    left: 50px;
+    top: 75px;
+}
+.contents{
+    position: relative;
+    top:100px;
+    left: 50px;
+}
+.number{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    word-spacing: 10px;
+    font-weight: 500;
+}
+.valid .text{
+position:relative;
+bottom:3px;  
+margin-right: 5px;
+font-size: 10px;
+}
+
+.rupay-logo{
+    position: relative;
+    left:300px;
+    top:60px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    
+}
+.back .second-line{
+margin: 0 10px;
+position: relative;
+top: 25px;
+font-size: 12px;
+
+}
+.back .back-logo{
+    height: 35px;
+    position :relative;
+    top:110px;
+    left:240px
+}
